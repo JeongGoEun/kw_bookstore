@@ -1,0 +1,49 @@
+
+.monthList, .dayList{
+	float: left;
+    margin-right: 150px;
+}
+#searchBtn1{
+	width:200px;
+	margin-top: 50px;
+    margin-left: 270px;
+}
+.list{
+	margin-left:70px;
+}
+.white_content {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    opacity:0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+.white_content:target {
+    opacity:1;
+    pointer-events: auto;
+}
+.white_content > div {
+	    position: absolute;
+    margin-left: 12%;
+    margin-top: 70px;
+    top: 25%;
+    left: 25%;
+    width: 25%;
+    height: 230px;
+    padding: 16px;
+    border: 16px solid orange;
+    background-color: white;
+    overflow: auto;
+}
+
+.tblClass > th, td {
+    border-bottom:1px solid black;
+    border-left:#fff;
+    padding: 10px
+}
